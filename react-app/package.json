@@ -1,5 +1,5 @@
 {
-  "name": "react-App",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +19,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-App",
-      "react-App/jest"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
