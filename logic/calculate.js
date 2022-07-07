@@ -3,7 +3,7 @@ import operate from './operate';
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
-j
+
 /**
  * Given a button name and a calculator data object, return an updated
  * calculator data object.
