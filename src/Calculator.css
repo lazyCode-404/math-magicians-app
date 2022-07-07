@@ -1,0 +1,42 @@
+.container {
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  width: 341px;
+}
+
+.screen {
+  background-color: #858694;
+  margin-bottom: 2px;
+  padding: 20px 5px;
+  text-align: right;
+  color: #fff;
+}
+
+.btn-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+}
+
+.btn {
+  background-color: #e0e0e0;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.btn:nth-child(4n) {
+  background: #f5913e;
+}
+
+.bottom-column {
+  grid-column-gap: 2px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-top: 2px;
+}
+
+.btn-equal {
+  background: #f5913e;
+  padding: 15px 37px;
+}
