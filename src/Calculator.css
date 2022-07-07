@@ -29,11 +29,8 @@
   background: #f5913e;
 }
 
-.bottom-column {
-  grid-column-gap: 2px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  margin-top: 2px;
+.btn-zero {
+  grid-column: 1/3;
 }
 
 .btn-equal {
