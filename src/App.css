@@ -1,0 +1,150 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: inherit;
+  height: 80px;
+  background-color: #eeee;
+  box-shadow: 8px 13px 26px 16px;
+}
+
+.nav-heading {
+  font-size: 45px;
+  padding-left: 10px;
+  color: orange;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links a {
+  padding: 8px;
+  text-decoration: none;
+  border-right: 2px solid #000;
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* justify-content: flex-start; */
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.welcome {
+  margin-top: 50px;
+  font-size: 27px;
+  color: blue;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.calculator-dis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.math-intro {
+  width: 90%;
+  font-size: 30px;
+  margin-top: -80px;
+}
+
+.calculatorDisplay {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  width: 70%;
+  padding-top: 10%;
+  text-align: center;
+  background-image: url(imgs/maths.png);
+  background-repeat: no-repeat;
+}
+
+.result {
+  grid-column: 1/ span 4;
+  background: lightslategray;
+  height: 64px;
+  width: auto;
+  text-align: end;
+  padding-top: 30px;
+  padding-right: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.operand {
+  border: 1px solid #dfe6ed;
+  text-align: center;
+  padding: 10px;
+}
+
+.digits {
+  border: 1px solid #dfe6ed;
+  padding: 10px;
+}
+
+.span {
+  border: 1px solid #dfe6ed;
+  grid-column: 1/ span 2;
+  padding: 10px;
+}
+
+.op {
+  background: orange;
+}
+
+.gry {
+  background: #d5d5d5;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.quote-div {
+  margin-top: 10%;
+  width: 75%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10%;
+  background-image: url(imgs/quote.png);
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+
+.quote-para {
+  font-size: 24px;
+}
