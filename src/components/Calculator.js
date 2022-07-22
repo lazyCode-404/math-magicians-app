@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
-// import operate from '../logic/Operate';
-
-import CalcUi from './CalcUi.js';
+import CalcUi from './CalcUi';
 
 const Calculator = () => {
   const [value, setValue] = useState({
