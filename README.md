@@ -23,7 +23,7 @@ npm start
 
 
 
-## Authors
+## Author
 
 
 👤 **Bwalya Nonde**
