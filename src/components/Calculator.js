@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 import CalcUi from './CalcUi';
+import LogoHeader from './LogoHeader';
+
+function stateTitle() {
+  const count = 'Math Magician';
+  return <nav className="narvname">{count}</nav>;
+}
+stateTitle();
+  <LogoHeader />;
 
 const Calculator = () => {
   const [value, setValue] = useState({
