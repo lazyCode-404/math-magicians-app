@@ -5,7 +5,7 @@ Math Magicians is a website for all fans of mathematics. It is a Single Page App
 Make simple calculations.
 Read a random math-related quote.
 
-![screenshot](./src/calculator.png)
+
 
 ### Prerequisites
 Install linters
@@ -23,7 +23,7 @@ npm start
 
 
 
-## Authors
+## Author
 
 
 👤 **Bwalya Nonde**
